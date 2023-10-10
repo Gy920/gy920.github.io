@@ -1,0 +1,24 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+#  - title: "Teaching"
+#    url: /teaching/
+    
+  - title: "Projects"
+    url: /portfolio/
+
+  - title: "Hobbies"
+    url: /hobbies/
+
+  # - title: "Highlight"
+  #   url: /talks/
+#  - title: "Blog Posts"
+#    url: /year-archive/
+#
+#  - title: "CV"
+#    url: /cv/
+#
+#  - title: "Guide"
+#    url: /markdown/
