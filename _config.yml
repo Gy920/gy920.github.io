@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "GY ZHENG"
+  name             : "Guiyong ZHENG"
   avatar           : "cat.png"
-  bio              : "An undergraduate student at XDU"
+  # bio              : "An undergraduate student at XDU"
   location         : "ShenZhen,China"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
