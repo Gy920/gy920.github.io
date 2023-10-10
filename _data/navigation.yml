@@ -6,11 +6,11 @@ main:
 #  - title: "Teaching"
 #    url: /teaching/
     
-  - title: "Projects"
-    url: /portfolio/
+  # - title: "Projects"
+  #   url: /portfolio/
 
-  - title: "Hobbies"
-    url: /hobbies/
+  # - title: "Hobbies"
+  #   url: /hobbies/
 
   # - title: "Highlight"
   #   url: /talks/

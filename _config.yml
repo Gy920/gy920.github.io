@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chenxing's Website"
+title                    : "Guiyong's Website"
 title_separator          : "-"
-name                     : &name "Chenxing JIANG (蒋辰星)"
-description              : &description "Ph.D. student in HKUST Aerial Robotics Group"
-url                      : https://jiang-cx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Guiyong Zheng (郑桂勇)"
+description              : &description "a Mphil Student at STAR group of SYSU"
+url                      : https://gy920.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "JIANG-CX/jiang-cx.github.io"
+repository               : "Gy920/gy920.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chenxing JIANG (蒋辰星)"
-  avatar           : "DSC_2791.jpg"
-  bio              : "Ph.D. student in HKUST Aerial Robotics Group"
-  location         : "Clear Water Bay, Hong Kong, China"
+  name             : "GY ZHENG"
+  avatar           : "cat.png"
+  bio              : "Nothing"
+  location         : "ShenZhen,China"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
-  email            : "cjiangan@connect.ust.hk"
+  email            : "shverses@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "JIANG-CX"
+  github           : "Gy920"
   google_plus      :
   keybase          :
   instagram        :
@@ -192,16 +192,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -210,14 +210,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -228,22 +228,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
