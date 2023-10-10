@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 <html>
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <table style="width:120%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
             <td style="padding:20px;width:20%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
               <img src="../images/MASTAR.jpg" alt="hpp" style="border-style: none" >
             </td>
-            <td style="padding:20px;width:80%;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
+            <td style="padding:40px;width:80%;font-size: 1.30em;vertical-align:middle;border-left-style:none;border-bottom-style:none;border-top-style:none;border-right-style:none">
                 <papertitle>MASSTAR: A Multi-Modal Large-Scale Scene Dataset with a Versatile Toolchain for Surface Prediction and Completion
                 </papertitle>
               <br>

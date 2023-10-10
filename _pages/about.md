@@ -19,7 +19,7 @@ My research interests include the areas of **Robotics** and **Machine Learning**
 Education
 ======
 
-* **B.Eng** , School of Electronic Engineering, Xidian University, 2020 - Present
+* B.Eng , School of Electronic Engineering, Xidian University, 2020 - Present
 
 
 Selected Honors
