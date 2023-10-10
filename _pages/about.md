@@ -14,7 +14,6 @@ Hello there, I'm Guiyong Zheng (郑桂勇), currently an undergraduate student a
 My research interests include the areas of **Robotics** and **Machine Learning**, with focus on: 
 
 - Perception
-  
 - State Estimation
 
 Education
