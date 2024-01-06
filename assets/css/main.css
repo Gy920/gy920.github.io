@@ -2830,7 +2830,7 @@ select:focus {
 }
 
 .page__content p {
-    margin: 0 0 1.3em
+    margin: 0 0 0.9em
 }
 
 .page__content a {
@@ -3528,7 +3528,7 @@ select:focus {
 
 @media (min-width: 57.8125em) {
     .sidebar {
-        width: 15.2542372881%;
+        width: 12%;
         float: left;
         margin-right: 1.6949152542%;
         opacity: 1;
