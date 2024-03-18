@@ -204,20 +204,20 @@ h3 {
 }
 
 h4 {
-    font-size: .75em
+    font-size: .65em
 }
 
 h5 {
-    font-size: .75em
+    font-size: .85em
 }
 
 h6 {
-    font-size: .75em
+    font-size: .35em
 }
 
 small,
 .small {
-    font-size: .75em
+    font-size: .35em
 }
 
 p {
@@ -3639,6 +3639,10 @@ select:focus {
     margin: 0
 }
 
+.cron__name {
+    margin: 0
+}
+
 @media (min-width: 57.8125em) {
     .author__name {
         margin-top: 10px;
@@ -3646,9 +3650,24 @@ select:focus {
     }
 }
 
+
 .sidebar .author__name {
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 1em
+}
+
+
+@media (min-width: 27.8125em) {
+    .cron__name {
+        margin-top: 4px;
+        margin-bottom: 4px
+    }
+}
+
+
+.sidebar .cron__name {
+    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 0.8em
 }
 
 .author__bio {
