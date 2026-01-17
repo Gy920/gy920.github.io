@@ -687,7 +687,7 @@ body:hover .visually-hidden button {
 }
 
 .wrapper {
-    max-width: 925px;
+    max-width: none;
     margin-left: auto;
     margin-right: auto
 }
@@ -1495,7 +1495,7 @@ th {
 }
 
 .masthead__inner-wrap {
-    max-width: 925px;
+    max-width: 2560px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -2745,7 +2745,7 @@ select:focus {
 }
 
 #main {
-    max-width: 925px;
+    max-width: 2560px;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -2776,17 +2776,18 @@ select:focus {
 
 @media (min-width: 57.8125em) {
     .page {
-        width: 83.0508474576%;
+        width: 88%;
         float: right;
         margin-right: 0;
-        padding-left: 4.2372881356%;
-        padding-right: 16.9491525424%
+        padding-left: 1em;
+        padding-right: 1em
     }
 }
 
 .page .page__inner-wrap {
     clear: both;
     width: 100%;
+    max-width: none;
     float: left;
     margin-left: 0;
     margin-right: 0
@@ -3526,11 +3527,11 @@ select:focus {
     display: table
 }
 
-@media (min-width: 57.8125em) {
+@media (min-width: 37.8125em) {
     .sidebar {
-        width: 12%;
+        width: 10%;
         float: left;
-        margin-right: 1.6949152542%;
+        margin-right: 0.6949152542%;
         opacity: 1;
         -webkit-transition: opacity 0.2s ease-in-out;
         transition: opacity 0.2s ease-in-out
@@ -9603,4 +9604,89 @@ screen and (max-height: 300px) {
     .page__footer {
         display: none
     }
+}
+
+/* Publications styling */
+.publication-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+.publication-image {
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper-thumbnail {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.publication-content {
+    flex: 1;
+}
+
+.publication-content li {
+    margin: 0;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .publication-item {
+        flex-direction: column;
+    }
+
+    .publication-image {
+        width: 100%;
+    }
+
+    .paper-thumbnail {
+        width: 100%;
+    }
+}
+
+/* Education & Experience styling */
+.exp-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.exp-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.exp-content {
+    flex: 1;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.exp-header .exp-name {
+    font-weight: bold;
+}
+
+.exp-header .exp-date {
+    color: #666;
+    white-space: nowrap;
+}
+
+#education, #experience, #publications {
+    margin-top: 2em;
 }
