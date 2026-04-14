@@ -9639,6 +9639,18 @@ screen and (max-height: 300px) {
     list-style: none;
 }
 
+.publication-badge {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.project-badge {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
+}
+
 @media (max-width: 768px) {
     .publication-item {
         flex-direction: column;
@@ -9651,6 +9663,15 @@ screen and (max-height: 300px) {
     .paper-thumbnail {
         width: 100%;
     }
+
+    .publication-badge {
+        height: 22px;
+    }
+
+    .project-badge {
+        height: 22px;
+    }
+
 }
 
 /* Education & Experience styling */
